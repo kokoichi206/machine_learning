@@ -10,6 +10,10 @@
 imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 ```
 
+- あくまでも draw などは img を更新するイメージか
+- 実際に更新を行うのは、cv2.imshow() の部分
+
+
 ### Requirements
 - module
   - opencv-python
